@@ -229,11 +229,12 @@
          <!--Physical Addresses--> 
         <StackPanel Grid.Row="3" Margin="5">
             <StackPanel>
+                 
                 <Border Style="{StaticResource DetailBorder}">
                     <DockPanel>
                         <Label FontWeight="Bold" 
                                Foreground="#FFF5F7F9"
-                               Content="Physical Addresses"
+                               Content="Addresse"
                                FontSize="16"/>
                         <Button Command="{Binding AddPhysicalAddress}"
                                 Margin="10 0 10 0"
